@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Dashboard extends CI_Controller {
+class Diagnosa extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -23,7 +23,7 @@ class Dashboard extends CI_Controller {
 	{
 		$this->load->view('templates/header');
 		$this->load->view('templates/sidebar');
-		$this->load->view('admin/dashboard');
+		$this->load->view('admin/diagnosa');
 		$this->load->view('templates/footer');
 	}
 
